@@ -1,0 +1,5 @@
+ipfabric # IP Fabric SDK, make sure it matches the version of the IP Fabric instance
+loguru
+pynetbox
+python-dotenv
+urllib3
