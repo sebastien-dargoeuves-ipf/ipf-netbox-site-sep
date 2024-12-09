@@ -56,7 +56,7 @@ python site-sep-netbox.py
 The script's main execution function does the following:
 
 1. Initializes the IP Fabric and NetBox API clients.
-2. Fetches devices from NetBox and builds a dictionary of attributes based on the serial numbers and site information.
+2. Fetches devices from NetBox and builds a dictionary of attributes based on the serial numbers and (site|information) information, based on the `NB_SITE_MAPPING` variable.
 3. Prompts the user to push the new attributes to IP Fabric.
 4. Fetches devices from IP Fabric and builds a list of extra attributes for devices with serial numbers containing a `/`.
 5. Prompts the user to push the extra attributes to IP Fabric.
